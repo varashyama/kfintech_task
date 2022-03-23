@@ -25,7 +25,7 @@ export default function SignIn() {
 
     function checkData(values, history) {
 
-        axios.post('ttps://reqres.in/api/login', values)
+        axios.post('https://reqres.in/api/login', values)
             .then(response => {
                 if (response.status === 200) {
                     setToken(response.data.token)
