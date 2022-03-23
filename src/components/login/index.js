@@ -30,6 +30,7 @@ export default function SignIn() {
                 if (response.status === 200) {
                     setToken(response.data.token)
                     console.log(response.data.token);
+                    console.log(response ,"hi");
                     console.log("success");
                     history(`/myprofile`);
 
