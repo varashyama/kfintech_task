@@ -21,5 +21,9 @@ The follwoing guide will help you to run this code locally
 6. By click allprofile you can view all profiles details
 7. Using Logout  button you can logout from app it will navigate you to login page
 
+## Note
+
+1. I have used Context for global statemanagment so the task requires redux but i dont have much hands on experience in redux
+2. as it is mentioned api response to be stored in global state , but i have stored only the login api response, as storeing all api information in global state is not a good practice
 
 
